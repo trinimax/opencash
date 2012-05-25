@@ -18,6 +18,7 @@
         		<li><a href="<?php echo base_url();?>productos/index">Productos</a></li>
         		<li><a href="<?php echo base_url();?>familias/index">Familias de productos</a></li>
         		<li><a href="<?php echo base_url();?>listas/index">Tipos de ventas</a></li>
+        		<li><a href="<?php echo base_url();?>descuentos/index">Tipos de descuentos</a></li>
                 <li><a href="<?php echo base_url();?>usuarios/index">Usuarios</a></li>
             </ul>
         </li>

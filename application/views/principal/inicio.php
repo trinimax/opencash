@@ -73,6 +73,12 @@
 	            		</a>
 	            	</div>
 	            	<div class="widget">
+	            		<a href="<?php echo base_url();?>descuentos/index">
+	            			<img src="<?php print base_url();?>resources/images/big_icon_descuento.png" alt="Descuento" />
+	            			Tipos de descuentos
+	            		</a>
+	            	</div>
+	            	<div class="widget">
 	            		<a href="<?php echo base_url();?>usuarios/index">
 	            			<img src="<?php print base_url();?>resources/images/big_icon_usuarios.png" alt="Usuario" />
 	            			Usuarios
