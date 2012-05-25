@@ -1,0 +1,378 @@
+/* 
+    Document   : stylesheet.css
+    Created on : 09/03/2012, 05:18 PM
+    Author     : Jesus Abraham Cortes (jcortes234@gmail.com)
+    Description: Hoja de estilos default de la herramienta CashCtrl
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+    background: #999;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background: url(../images/bg_button.png) repeat-x top;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -o-border-radius: 5px;
+    border: 1px solid #060;
+    border-width: 1px 3px 3px 1px;
+    color: #FFF;
+    height: 30px;
+    padding: 5px;
+    min-width: 75px;
+}
+
+button:hover {
+    background: url(../images/bg_button.png) repeat-x center;
+    border: 1px solid #060;
+    border-width: 1px 3px 3px 1px;
+}
+
+button:active {
+    background: url(../images/bg_button.png) repeat-x bottom;
+    border: 1px solid #060;
+}
+
+#contenido {
+	background: #FFF;
+	box-shadow: 0 0 20px 10px;
+		-moz-box-shadow: 0 0 20px 10px;
+		-webkit-box-shadow: 0 0 20px 10px;
+		-o-box-shadow: 0 0 20px 10px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#encabezado {
+	background: #000;
+    height: 110px;
+}
+
+#menu {
+	background: #666;
+	height: 30px;
+}
+
+#cuerpo {
+    min-height: 400px;
+    margin: 20px 0 30px 0;
+}
+
+#cuerpo a {
+	color: #060;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#cuerpo a:hover {
+	background: #090;
+	color: #FFF;
+}
+
+#titulo {
+	margin-bottom: 10px;
+	border: 1px solid #000;
+	border-width: 0 0 2px 0;
+}
+
+#pie {
+	color: #FFF;
+	background: #000;    
+    font-size: 10px;
+    text-align: center;
+    padding: 3px;
+}
+
+.tabla {
+    background: #DDD;
+    /*border: 1px solid #666;
+    box-shadow: 2px 2px 3px 1px;*/
+}
+
+.tabla a {
+	padding: 0;
+	margin: 0;
+	background: none !important;
+}
+
+.tabla a:hover {
+	color: #030 !important;
+} 
+
+.tabla thead tr td {
+    background: #009900;
+    color: #FFF;
+    font-size: 1.1em;
+    padding: 3px;
+    text-align: center;
+}
+
+.tabla tbody tr.par {
+    background: #EEE;
+}
+
+.tabla tbody tr.activo {
+	background: #99CC99 !important;
+}
+
+.tabla tbody tr.row:hover {
+    background: #FFF;
+}
+
+.tabla tfoot tr {
+    background: #999;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.tabla tfoot tr td {
+    padding: 3px;
+    margin: 0;
+}
+
+.tabla tfoot div {
+    background: url(../images/page_button.png) repeat-x bottom;
+    border: 1px solid #000;
+    border-radius: 3px;
+    	-moz-border-radius: 3px;
+    	-webkit-border-radius: 3px;
+    	-o-border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    font-size: 10px;
+    padding: 1px 4px;
+    cursor: pointer;
+}
+
+.tabla tfoot div.activo {
+    background: url(../images/page_button.png) repeat-x top;
+}
+
+.tablesorter a {
+    color: #666;
+    text-decoration: none;
+}
+
+.tablesorter a:hover {
+    color: #333;
+    text-decoration: underline;
+    background: none !important;
+}
+
+.tabla a {
+    color: #666;
+    text-decoration: none;
+}
+
+.tabla a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.watermark {
+    color: #999 !important;
+    font-style: italic;
+}
+
+.red-alert {
+    color: #FF0000;
+}
+
+.gray-alert {
+    color: #999999;
+}
+
+.green-alert {
+    background:#ccffcc;
+    border: 1px solid #669900;
+    padding: 5px;
+    text-align: center;
+}
+
+.error {
+    background: #FFCCCC;
+    border: 1px solid #FF0000;
+    padding: 5px;
+}
+
+.numero {
+	text-align:right;
+}
+
+.widget {
+	width: 140px;
+	height: 140px;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	text-align:center;
+	font-size: 12px;
+}
+
+.widget a:hover {
+	background: none !important;
+}
+
+.widget:hover {
+	background: #090;
+	color: #FFF !important;
+	border-radius: 5px;
+}
+
+.icon-error {
+    background: url(../images/icon_error.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-login {
+    background: url(../images/icon_login.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-logout {
+    background: url(../images/icon_logout.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-buscar {
+    background: url(../images/icon_buscar.gif) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-registrar {
+    background: url(../images/icon_registrar.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-modificar {
+    background: url(../images/icon_modificar.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-guardar {
+    background: url(../images/icon_guardar.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-regresar {
+    background: url(../images/icon_regresar.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-actualizar {
+    background: url(../images/icon_actualizar.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-xls {
+    background: url(../images/icon_xls.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-si {
+    background: url(../images/icon_si.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-no {
+    background: url(../images/icon_no.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-usuario {
+    background: url(../images/icon_usuario.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-cargar {
+    background: url(../images/icon_cargar.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-descargar {
+    background: url(../images/icon_descargar.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-derecha {
+    background: url(../images/icon_derecha.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-izquierda {
+    background: url(../images/icon_izquierda.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.icon-dinero {
+    background: url(../images/icon_dinero.png) no-repeat center;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+#tooltip {
+    position: absolute;
+    z-index: 3000;
+    border: 1px dashed #000;
+    background-color: #666;
+    color: #FFF;
+    padding: 5px;
+    opacity: 1;
+}
+
+#tooltip h3, #tooltip div { margin: 0; }
+.ui-spinner {position: relative}
+.ui-spinner-buttons {position: absolute}
+.ui-spinner-button {overflow: hidden}

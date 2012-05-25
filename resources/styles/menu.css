@@ -1,0 +1,83 @@
+ul.jd_menu {
+    position: relative;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding: 0px;
+    height: 30px;
+    list-style-type: none;
+    border: 0;
+    /*border: 0px solid #A8A16D;
+    border-width: 1px 0 1px 0;*/
+    background-color: #666;
+    background: #666;
+    z-index: 99;
+}
+
+ul.jd_menu ul {
+	display: none;
+}
+ul.jd_menu a, 
+ul.jd_menu a:active,
+ul.jd_menu a:link,
+ul.jd_menu a:visited
+{
+	text-decoration: none;
+	color: #FFF;
+}
+ul.jd_menu li {
+	float: left;
+	font-size: 14px;
+	padding: 7px 20px;
+	cursor: pointer;
+	white-space: nowrap;
+	/*border-right: 1px solid #CCC;*/
+	color: #FFF;
+}
+ul.jd_menu li:hover {
+	color: #FFF;
+	background: #000;
+}
+ul.jd_menu a:hover {
+	color: #FFF;
+}
+
+/* -- Sub-Menus Styling -- */
+ul.jd_menu ul {
+	position: absolute;
+	display: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background: #666;
+	border: 1px solid #000;
+        border-width: 0 2px 2px 1px;
+}
+ul.jd_menu ul li {
+	float: none;
+	margin: 0px;
+	padding: 5px 4px;
+	width: 180px;
+	background: #666;
+	border: none;
+	color: #FFF;
+}
+ul.jd_menu ul li:hover {
+	background: #000;
+	/*padding-top: 2px;
+	border-top: 1px solid #000;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #929AA1;*/
+	color: #FFF;
+}
+ul.jd_menu ul a, 
+ul.jd_menu ul a:active,
+ul.jd_menu ul a:link,
+ul.jd_menu ul a:visited {
+	text-decoration: none !important;
+	font-style: normal !important;
+	color: #FFF;
+}
+ul.jd_menu ul a.jd_menu_hover {
+	color: #FFF;
+}

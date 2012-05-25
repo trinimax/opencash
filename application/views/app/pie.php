@@ -1,0 +1,1 @@
+<div id="pie">Copyright 2012 &copy; Todos los derechos reservados. Sistema de control de caja</div>
