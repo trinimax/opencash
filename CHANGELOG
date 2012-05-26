@@ -1,3 +1,12 @@
+Sistema CheckoutCtrl, para la administración de puntos de venta
+Seguimiento a versiones del proyecto
+
+Versión 1.1.1
+Fecha: 26 de mayo de 2012 a las 14:12
+Descripción
+- Se corrige error en ventas con descuento (guardaba porcentaje en lugar de monto)
+- Se modifica el reporte de ventas, desglosando por tipo de venta y agregando nuevas columnas
+
 Versión 1.1.0
 Fecha: 25 de mayo de 2012 a las 16:26
 Descripción:

@@ -26,20 +26,28 @@
             		</tr>
             	</table>
             	<br /><br />
-            	<table align="center" cellpadding="5" cellspacing="0" id="grid" class="tablesorter" style="width:900px;">
+            	<table align="center" cellpadding="5" cellspacing="0" id="grid" class="tablesorter" style="width:950px;">
             		<thead>
             			<tr>
-            				<th width="50">No</th>
+            				<!--<th width="50">No</th>-->
             				<th width="100">Folio</th>
+            				<th width="100">Fecha</th>
+            				<th width="100">Vendedor</th>
             				<th width="100">Tipo</th>
-            				<th width="100">Forma pago</th>
+            				<!--<th width="100">Forma pago</th>-->
             				<th width="100">Cliente</th>
-            				<th width="100">Subtotal</th>
+            				<th width="100">Bruto</th>
             				<th width="100">IVA</th>
-            				<th width="100">Total</th>
+            				<th width="100">Neto</th>
+            				<th width="100">Efectivo</th>
+            				<th width="100">Visa/MC C</th>
+            				<th width="100">Visa/MC H</th>
+            				<th width="100">AMEX</th>
+            				<th width="100">Total TDC</th>
+            				<th width="100">Vale</th>
             				<th width="100">Propina</th>
             				<th width="100">Descuento</th>
-            				<th width="100">Neto</th>
+            				<th width="100">Total</th>
             			</tr>
             		</thead>
             		<tbody>
@@ -50,17 +58,28 @@
             			<?php else: ?>
             			<?php for($i=0; $i<count($ventas); $i++): ?>
             			<tr>
-            				<td align="center"><?php print $i+1;?></td>
+            				<!--<td align="center"><?php print $i+1;?></td>-->
             				<td align="center"><?php print $ventas[$i]->folio;?></td>
+            				<td align="center">
+            					<?php $fh = explode(' ', $ventas[$i]->fecha_cierre);?>
+            					<?php print formato_fecha_ddmmaaaa($fh[0]);?> <?php print $fh[1]; ?>
+            				</td>
+            				<td align="center"><?php print $ventas[$i]->usuario;?></td>
             				<td align="left"><?php print $ventas[$i]->lista;?></td>
-            				<td align="center"><?php print $ventas[$i]->tipo_pago;?></td>
+            				<!--<td align="center"><?php print $ventas[$i]->tipo_pago;?></td>-->
             				<td align="center"><?php print $ventas[$i]->tipo_cliente;?></td>
-            				<td align="right">$ <?php print number_format($ventas[$i]->subtotal, 2);?></td>
-            				<td align="right">$ <?php print number_format($ventas[$i]->iva, 2);?></td>
-            				<td align="right">$ <?php print number_format($ventas[$i]->total, 2);?></td>
-            				<td align="right">$ <?php print number_format($ventas[$i]->monto_propina, 2);?></td>
-            				<td align="right">$ <?php print number_format($ventas[$i]->monto_reduccion, 2);?></td>
-            				<td align="right">$ <?php print number_format(($ventas[$i]->total + $ventas[$i]->monto_propina - $ventas[$i]->monto_reduccion), 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->subtotal, 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->iva, 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->total, 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->efectivo, 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->visac, 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->visah, 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->amex, 2);?></td>
+            				<td align="right">$<?php print number_format(($ventas[$i]->visac + $ventas[$i]->visah + $ventas[$i]->amex), 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->vale, 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->monto_propina, 2);?></td>
+            				<td align="right">$<?php print number_format($ventas[$i]->monto_reduccion, 2);?></td>
+            				<td align="right">$<?php print number_format(($ventas[$i]->total + $ventas[$i]->monto_propina - $ventas[$i]->monto_reduccion), 2);?></td>
             			</tr>
         				<?php endfor; ?>
         				<?php endif; ?>

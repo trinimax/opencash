@@ -100,8 +100,10 @@
 						</table>	
 					</div>
 				</div>
-				<br /><br />
-				<div align="center"><button type="button" name="btnNuevo" id="btnNuevo"><span class="icon-registrar">&nbsp;</span> Nuevo</button></div>
+				<br /><br /><br />
+				<div style="text-align:center">
+					<button type="button" name="btnNuevo" id="btnNuevo"><span class="icon-registrar">&nbsp;</span> Nuevo</button>
+				</div>
             </div>
             <?php $this->load->view('app/pie') ?>
         </div>

@@ -387,14 +387,14 @@
 			        				}
 	        					} else {
 	        						if($("#hddDescuentoVal").val() == '1') {
-				        				if($("#txtDescuento").val() == '0.00') {
+				        				if($("#txtDescuento").val() == '0') {
 				        					jAlert("No ha especificado el monto del descuento", "Error al realizar el cobro");
 				        				} else if($("#cmbClaseDescuento").val() == '') {
 				        					jAlert("No ha especificado la causa del descuento", "Error al realizar el cobro");
 				        				} else if($("#cmbFormaPago").val() == '') {
 				        					jAlert("No ha especificado la forma de pago", "Error al realizar el cobro");
 				        				} else {
-				        					Ejecutar_compra($("#txtDescuento").val(), $("#cmbClaseDescuento").val(), $("#txtPropina").val(),
+				        					Ejecutar_compra($("#monto-descuento").html().replace("$ ", ""), $("#cmbClaseDescuento").val(), $("#txtPropina").val(),
 				        					 	efectivo_real, parseFloat($("#txtMontoVisaMcC").val()),
 				        					 	parseFloat($("#txtMontoVisaMcH").val()),
 			        							parseFloat($("#txtMontoAmex").val()), parseFloat($("#txtMontoVale").val()));
