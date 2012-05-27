@@ -68,7 +68,7 @@
             		<tbody>
             			<?php if(count($ventas) < 1): ?>
             			<tr>
-            				<td colspan="10" align="center">-- No se han localizado ventas --</td>
+            				<td colspan="11" align="center">-- No se han localizado ventas --</td>
             			</tr>
             			<?php else: ?>
             				<?php for($i=0; $i<count($ventas); $i++): ?>

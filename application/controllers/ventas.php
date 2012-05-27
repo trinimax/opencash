@@ -43,7 +43,12 @@ class Ventas extends CI_Controller {
 		
 		$datos['criterio'] = $this->input->post('txtCriterio');
 		
-		$datos['ventas'] = $this->venta->Traer_ventas(array('estatus'=>'PENDIENTE'), $datos['criterio']);
+		if($this->session->userdata('Cash-profileid') == 1) {
+			$datos['ventas'] = $this->venta->Traer_ventas(array('estatus'=>'PENDIENTE', 'id_usuario'=>$this->session->userdata('Cash-id')), $datos['criterio']);
+		} else {
+			$datos['ventas'] = $this->venta->Traer_ventas(array('estatus'=>'PENDIENTE'), $datos['criterio']);
+		}
+		
 		for($i=0; $i<count($datos['ventas']); $i++) {
 			$rowLista = $this->lista->Traer_lista(array('id_clase_venta'=>$datos['ventas'][$i]->id_clase_venta));
 			$datos['ventas'][$i]->clase = $rowLista->nombre;

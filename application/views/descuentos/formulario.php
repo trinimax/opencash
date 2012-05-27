@@ -2,7 +2,7 @@
 <html>
     <head>
     	<?php $this->load->view('app/recursos') ?>
-        <title><?php print $opcion; ?> tipo de descuento - <?php print NOMBRE_APP; ?></title>
+        <title><?php print $opcion; ?> razones de descuento - <?php print NOMBRE_APP; ?></title>
         <script type="text/javascript">
         	$(document).ready(function(){
         		$("#txtNombre").watermark('Nombre del tipo de descuento', {useNative: true});
@@ -21,7 +21,7 @@
             <div id="cuerpo">
             	<table width="950" align="center" cellpadding="0" cellspacing="0" id="titulo">
             		<tr>
-            			<td align="left"><h1><?php print $opcion; ?> tipo de descuento</h1></td>
+            			<td align="left"><h1><?php print $opcion; ?> razones de descuento</h1></td>
             			<td align="right"><span class="icon-usuario">&nbsp;</span> Usuario: <strong><?php print $this->session->userdata('Cash-person'); ?></strong> | <span class="icon-logout">&nbsp;</span> <a href="<?php print base_url(); ?>sesion/logout">Cerrar sesión</a></td>
             		</tr>
             	</table>
@@ -43,7 +43,7 @@
             		<tbody>
             			<tr>
             				<td align="right" width="200">
-            					<span class="red-alert">*</span> <label for="txtFamilia">Nombre del tipo de descuento:</label>
+            					<span class="red-alert">*</span> <label for="txtFamilia">Razón de descuento:</label>
             				</td>
             				<td align="left" width="300">
             					<input type="text" name="txtNombre" id="txtNombre" size="25" maxlength="20" value="<?php print set_value('txtNombre', $descuento->nombre); ?>"  />

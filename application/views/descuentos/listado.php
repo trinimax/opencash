@@ -2,7 +2,7 @@
 <html>
     <head>
     	<?php $this->load->view('app/recursos') ?>
-        <title>Gestión de Tipos de descuentos - <?php print NOMBRE_APP; ?></title>
+        <title>Gestión de razones de descuentos - <?php print NOMBRE_APP; ?></title>
         <script type="text/javascript">
         	$(document).ready(function(){
         		$("#grid").tablesorter({widgets: ['zebra']}).tablesorterPager({container: $("#pager")});
@@ -28,7 +28,7 @@
             <div id="cuerpo">
             	<table width="850" align="center" cellpadding="0" cellspacing="0" id="titulo">
             		<tr>
-            			<td align="left"><h1>Gestión de tipos de descuentos</h1></td>
+            			<td align="left"><h1>Gestión de razones de descuentos</h1></td>
             			<td align="right"><span class="icon-usuario">&nbsp;</span> Usuario: <strong><?php print $this->session->userdata('Cash-person'); ?></strong> | <span class="icon-logout">&nbsp;</span> <a href="<?php print base_url(); ?>sesion/logout">Cerrar sesión</a></td>
             		</tr>
             	</table>
@@ -38,7 +38,7 @@
             		<thead>
             			<tr>
             				<th width="50">No</th>
-            				<th width="200">Tipo de descuento</th>
+            				<th width="200">Razón de descuento</th>
             				<th width="250">Descripcion</th>
             				<th width="100">Estatus</th>
             				<th width="100">Modificar</th>

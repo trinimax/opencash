@@ -75,7 +75,7 @@
 	            	<div class="widget">
 	            		<a href="<?php echo base_url();?>descuentos/index">
 	            			<img src="<?php print base_url();?>resources/images/big_icon_descuento.png" alt="Descuento" />
-	            			Tipos de descuentos
+	            			Razones de descuentos
 	            		</a>
 	            	</div>
 	            	<div class="widget">

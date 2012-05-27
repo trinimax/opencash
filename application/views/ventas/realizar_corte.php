@@ -316,8 +316,8 @@
             			<tr>
             				<td colspan="2" align="center">
             					<button type="button" name="btnGenerar" id="btnGenerar"><span class="icon-guardar">&nbsp;</span> Ejecutar corte</button>
-            					&nbsp;&nbsp;&nbsp;
-            					<button type="button" name="btnRegresar" id="btnRegresar"><span class="icon-regresar">&nbsp;</span> Regresar</button>
+            					<!--&nbsp;&nbsp;&nbsp;
+            					<button type="button" name="btnRegresar" id="btnRegresar"><span class="icon-regresar">&nbsp;</span> Regresar</button>-->
             				</td>
             			</tr>
             		</tbody>

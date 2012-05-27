@@ -118,3 +118,27 @@ ERROR - 2012-05-25 16:24:47 --> Severity: Notice  --> Undefined variable: famili
 ERROR - 2012-05-25 16:24:47 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
 ERROR - 2012-05-25 16:24:47 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
 ERROR - 2012-05-25 16:24:47 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:39 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:40 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:40 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:40 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:40 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:35:40 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:38:33 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:38:33 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:38:33 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:38:33 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:38:33 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:38:33 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:38:33 --> Severity: Notice  --> Undefined variable: familias /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
+ERROR - 2012-05-25 16:38:33 --> Severity: Notice  --> Trying to get property of non-object /Applications/MAMP/htdocs/dhcash/application/views/descuentos/listado.php 57
