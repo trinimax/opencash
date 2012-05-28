@@ -128,11 +128,11 @@ class Reportes extends CI_Controller {
         $this->writexls->CambiarLetraNegrita("D1", true);
         $this->writexls->EscribirCelda("E1", "Cliente");
         $this->writexls->CambiarLetraNegrita("E1", true);
-        $this->writexls->EscribirCelda("F1", "Subtotal");
+        $this->writexls->EscribirCelda("F1", "Bruto");
         $this->writexls->CambiarLetraNegrita("F1", true);
         $this->writexls->EscribirCelda("G1", "IVA");
         $this->writexls->CambiarLetraNegrita("G1", true);
-        $this->writexls->EscribirCelda("H1", "Total");
+        $this->writexls->EscribirCelda("H1", "Neto");
         $this->writexls->CambiarLetraNegrita("H1", true);
 		
 		$this->writexls->EscribirCelda("I1", "Efectivo");
@@ -152,7 +152,7 @@ class Reportes extends CI_Controller {
         $this->writexls->CambiarLetraNegrita("O1", true);
         $this->writexls->EscribirCelda("P1", "Descuento");
         $this->writexls->CambiarLetraNegrita("P1", true);
-		$this->writexls->EscribirCelda("Q1", "Neto");
+		$this->writexls->EscribirCelda("Q1", "Total");
         $this->writexls->CambiarLetraNegrita("Q1", true);
 		
 		$datos['fechaI'] = formato_fecha_ddmmaaaa($datos['fechaI']);
