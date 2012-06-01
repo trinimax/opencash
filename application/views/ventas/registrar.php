@@ -782,10 +782,12 @@
             					<span class="icon-dinero">&nbsp;</span> Cobrar ahora
             				</button>
             				&nbsp;
+            				<?php if(!$pendiente): ?>
             				<button type="button" name="btnGuardar" id="btnGuardar">
             					<span class="icon-regresar">&nbsp;</span> Cobrar después
             				</button>
             				&nbsp;
+            				<?php endif; ?>
             				<button type="button" name="btnCancelar" id="btnCancelar">
             					<span class="icon-error">&nbsp;</span> Cancelar venta
             				</button>

@@ -15,6 +15,7 @@ class Ventas extends CI_Controller {
 		$this->load->model('producto');
 		
 		if($folio == NULL) {
+			$datos['pendiente'] = FALSE;
 			$datos['folio'] = '';
 			$datos['id_venta'] = '';
 		} else {
@@ -25,6 +26,7 @@ class Ventas extends CI_Controller {
 			} else if($venta->estatus != 'PENDIENTE') {
 				redirect( base_url() . 'ventas/no_pendiente' );
 			} else {
+				$datos['pendiente'] = TRUE;
 				$datos['folio'] = $venta->folio;
 				$datos['id_venta'] = $venta->id_venta;
 			}

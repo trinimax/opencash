@@ -20,6 +20,10 @@
         			}
         		});
         	}
+        	
+        	function No_eliminar_usuario() {
+        		jAlert("Imposible eliminar usuarios administradores", "Error al eliminar");
+        	}
         </script>
     </head>
     <body>
@@ -118,7 +122,11 @@
             						</a>
             					</td>
             					<td align="center">
+            						<?php if($usuarios[$i]->id_perfil != 2): ?>
             						<a href="javascript:Eliminar_usuario(<?php print $usuarios[$i]->id_usuario;?>);">
+            						<?php else: ?>
+            						<a href="javascript:No_eliminar_usuario();">
+            						<?php endif; ?>
             						<img src="<?php print base_url();?>resources/images/icon_no.png" alt="Eliminar"
             								title="Eliminar usuario <?php print $usuarios[$i]->nombre_usuario; ?>" class="tooltip" />
             						</a>
